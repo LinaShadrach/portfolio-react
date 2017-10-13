@@ -6,6 +6,7 @@ module.exports = {
   entry: [
     resolve(__dirname, "src") + "/index.jsx"
   ],
+  devtool: 'inline-source-map',
 
   output: {
     filename: 'app.bundle.js',
