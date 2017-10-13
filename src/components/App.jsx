@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "./Header";
 import ProjectList from "./ProjectList";
+import Description from "./Description";
 
 function App(props){
   return (
     <div>
       <Header/>
-      <h3>Web Developer</h3>
+      <Description/>
       <ProjectList></ProjectList>
     </div>
   );
