@@ -10,6 +10,7 @@ class Tag extends React.Component{
    }
   showShortDescription(event) {
     this.setState({shortDescriptionVisibleOnPage: true});
+    console.log("des");
 
   }
   render(){
@@ -17,7 +18,10 @@ class Tag extends React.Component{
     if(this.state.shortDescriptionVisibleOnPage){
       shortDescriptionAreaContent = <ShortDescription/>
     } else {
-      shortDescriptionAreaContent = <h3 onMouseOver={this.showShortDescription}>Web Developer</h3>
+      shortDescriptionAreaContent =
+      <div>
+        <h3 onMouseEnter={this.showShortDescription}>Web Developer</h3>
+      </div>
     }
     return (
       <div>
