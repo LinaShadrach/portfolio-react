@@ -10,7 +10,6 @@ class ShortDescription extends React.Component{
    }
   showTag(event) {
     this.setState({tagVisibleOnPage: true});
-    console.log("tag");
   }
 
   render(){

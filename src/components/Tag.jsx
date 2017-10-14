@@ -10,7 +10,6 @@ class Tag extends React.Component{
    }
   showShortDescription(event) {
     this.setState({shortDescriptionVisibleOnPage: true});
-    console.log("des");
 
   }
   render(){
