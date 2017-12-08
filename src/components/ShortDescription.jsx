@@ -17,7 +17,7 @@ class ShortDescription extends React.Component{
     if(this.state.tagVisibleOnPage){
       tagAreaContent = <Tag/>
     } else {
-      tagAreaContent = <h4 onMouseLeave={this.showTag}>Instructor of C#/.NET at Epicodus in Portland, Or.</h4>
+      tagAreaContent = <h4 onMouseEnter={this.showTag}>Instructor of C#/.NET at Epicodus in Portland, Or.</h4>
     }
     return (
       <div>
@@ -29,4 +29,4 @@ class ShortDescription extends React.Component{
 
 export default ShortDescription;
 
-<h4>Instructor of C#/.NET at Epicodus in Portland, Or.</h4>
+\
