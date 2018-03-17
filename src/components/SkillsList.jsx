@@ -14,7 +14,7 @@ function SkillsList(props){
           />
         )}
       </ul>
-  </Col>
+    </Col>
   );
 }
 

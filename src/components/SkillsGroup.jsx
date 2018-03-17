@@ -6,7 +6,7 @@ import { masterSkillsList } from './../data/master-skills-list.js';
 function SkillsGroup(){
   return (
     <Row>
-      <h3>Skills</h3>
+      <h3 className='center'>Skills</h3>
       <hr/>
       <SkillsList masterSkillsList={masterSkillsList}></SkillsList>
       <SkillsList masterSkillsList={masterSkillsList}></SkillsList>

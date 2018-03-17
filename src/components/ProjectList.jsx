@@ -26,7 +26,7 @@ var masterProjectList = [
 function ProjectList(){
   return (
     <Row>
-      <h3>Projects</h3>
+      <h3 className='center'>Projects</h3>
       <hr/>
       {masterProjectList.map((project, index) =>
         <Project
