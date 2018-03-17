@@ -1,35 +1,25 @@
 import React from 'react';
 import Skill from './Skill';
-import { Row } from 'react-materialize';
+import { Col } from 'react-materialize';
+import PropTypes from 'prop-types';
 
-var masterSkillsList = [
-  {
-    title: 'C#'
-  },
-  {
-    title: 'ASP.NET'
-
-  },
-  {
-    title: 'VS 2015, 2017'
-  }
-];
-
-function SkillsList(){
+function SkillsList(props){
   return (
-    <Row>
-      <h3>Skills</h3>
-      <hr/>
+    <Col s={12} m={4} l={4}>
       <ul>
-        {masterSkillsList.map((skill, index) =>
+        {props.masterSkillsList.map((skill, index) =>
           <Skill
             title={skill.title}
             key={index}
           />
         )}
       </ul>
-    </Row>
+  </Col>
   );
 }
+
+SkillsList.propTypes = {
+  masterSkillsList: PropTypes.arrayOf(PropTypes.instanceOf(Object)),
+};
 
 export default SkillsList;
