@@ -2,8 +2,10 @@ import React from 'react';
 
 function Experience(){
   return (
-    <h3>Epicodus</h3>
-    <p>My journey.</p>
+    <div>
+      <h3>Epicodus</h3>
+      <p>My journey.</p>
+    </div>
   );
 }
 

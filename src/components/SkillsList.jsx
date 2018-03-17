@@ -1,7 +1,7 @@
 import React from 'react';
 import Skill from './Skill';
 
-var masterSkillList = [
+var masterSkillsList = [
   {
     title: 'C#'
   },
@@ -19,14 +19,14 @@ function SkillsList(){
     <div>
       <h3>Skills</h3>
       <hr/>
-        <ul>
-          {masterSkillsList.map((skill, index) =>
-            <Skills
-              title={skill.title}
-              key={index}
-            />
-          )}
-        </ul>
+      <ul>
+        {masterSkillsList.map((skill, index) =>
+          <Skill
+            title={skill.title}
+            key={index}
+          />
+        )}
+      </ul>
     </div>
   );
 }
