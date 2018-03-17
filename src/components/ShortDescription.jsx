@@ -1,6 +1,5 @@
 import React from 'react';
 import Tag from './Tag';
-import { Row } from 'react-materialize';
 
 class ShortDescription extends React.Component{
   constructor(props) {
