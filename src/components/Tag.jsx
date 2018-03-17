@@ -1,5 +1,6 @@
 import React from 'react';
 import ShortDescription from './ShortDescription';
+import { Row } from 'react-materialize';
 class Tag extends React.Component{
   constructor(props) {
     super(props);
@@ -18,9 +19,7 @@ class Tag extends React.Component{
       shortDescriptionAreaContent = <ShortDescription/>;
     } else {
       shortDescriptionAreaContent =
-        <div>
-          <h3 onMouseEnter={this.showShortDescription}>Web Developer</h3>
-        </div>;
+          <p onMouseEnter={this.showShortDescription}>Web Developer</p>;
     }
     return (
       <div>

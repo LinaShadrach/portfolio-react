@@ -19,12 +19,12 @@ class ShortDescription extends React.Component{
     if(this.state.tagVisibleOnPage){
       tagAreaContent = <Tag/>;
     } else {
-      tagAreaContent = <h4 onMouseEnter={this.showTag}>Instructor of C#/.NET at Epicodus in Portland, Or.</h4>;
+      tagAreaContent = <p onMouseEnter={this.showTag}>Instructor of C#/.NET at Epicodus in Portland, Or.</p>;
     }
     return (
-      <Row>
+      <div>
         {tagAreaContent}
-      </Row>
+      </div>
     );
   }
 }
