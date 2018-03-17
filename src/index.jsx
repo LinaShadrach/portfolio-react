@@ -18,7 +18,7 @@ render(App);
 /*eslint-disable */
 if (module.hot) {
   module.hot.accept('./components/App', () => {
-/*eslint-enable */
+    /*eslint-enable */
     render(App);
   });
 }

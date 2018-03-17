@@ -1,9 +1,9 @@
-import React from "react";
-import Header from "./Header";
-import ProjectList from "./ProjectList";
-import Tag from "./Tag";
+import React from 'react';
+import Header from './Header';
+import ProjectList from './ProjectList';
+import Tag from './Tag';
 
-function App(props){
+function App(){
   return (
     <div>
       <Header/>
