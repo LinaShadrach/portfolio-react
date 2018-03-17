@@ -28,5 +28,3 @@ class ShortDescription extends React.Component{
 }
 
 export default ShortDescription;
-
-\
