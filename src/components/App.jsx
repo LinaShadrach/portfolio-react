@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import ProjectList from './ProjectList';
 import Experience from './Experience';
-import SkillsList from './SkillsList';
+import SkillsGroup from './SkillsGroup';
 import ContactInfo from './ContactInfo';
 import { Row } from 'react-materialize';
 
@@ -12,7 +12,7 @@ function App(){
       <Header/>
       <ProjectList></ProjectList>
       <Experience></Experience>
-      <SkillsList></SkillsList>
+      <SkillsGroup></SkillsGroup>
       <ContactInfo></ContactInfo>
     </Row>
   );
