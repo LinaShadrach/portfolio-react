@@ -1,5 +1,7 @@
 import React from 'react';
 import Tag from './Tag';
+import { Row } from 'react-materialize';
+
 class ShortDescription extends React.Component{
   constructor(props) {
     super(props);
@@ -20,9 +22,9 @@ class ShortDescription extends React.Component{
       tagAreaContent = <h4 onMouseEnter={this.showTag}>Instructor of C#/.NET at Epicodus in Portland, Or.</h4>;
     }
     return (
-      <div>
+      <Row>
         {tagAreaContent}
-      </div>
+      </Row>
     );
   }
 }

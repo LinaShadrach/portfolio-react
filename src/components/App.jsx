@@ -5,17 +5,18 @@ import Tag from './Tag';
 import Experience from './Experience';
 import SkillsList from './SkillsList';
 import ContactInfo from './ContactInfo';
+import { Row } from 'react-materialize';
 
 function App(){
   return (
-    <div>
+    <Row>
       <Header/>
       <Tag/>
       <ProjectList></ProjectList>
       <Experience></Experience>
       <SkillsList></SkillsList>
       <ContactInfo></ContactInfo>
-    </div>
+    </Row>
   );
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from './Project';
+import { Row } from 'react-materialize';
 
 var masterProjectList = [
   {
@@ -21,7 +22,7 @@ var masterProjectList = [
 
 function ProjectList(){
   return (
-    <div>
+    <Row>
       <h3>Projects</h3>
       <hr/>
       {masterProjectList.map((project, index) =>
@@ -32,7 +33,7 @@ function ProjectList(){
           key={index}
         />
       )}
-    </div>
+    </Row>
   );
 }
 

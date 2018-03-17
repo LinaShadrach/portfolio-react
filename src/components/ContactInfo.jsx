@@ -1,11 +1,17 @@
 import React from 'react';
+import { Row } from 'react-materialize';
+import { Col } from 'react-materialize';
 
 function ContactInfo(){
   return (
-    <div>
-      <a href="github.com/LinaShadrach">Github</a>
-      <a href="https://www.linkedin.com/in/lina-shadrach/">LinkedIn</a>
-    </div>
+    <Row>
+      <Col>
+        <a href="github.com/LinaShadrach">Github</a>
+      </Col>
+      <Col>
+        <a href="https://www.linkedin.com/in/lina-shadrach/">LinkedIn</a>
+      </Col>
+    </Row>
   );
 }
 

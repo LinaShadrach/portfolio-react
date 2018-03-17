@@ -1,5 +1,6 @@
 import React from 'react';
 import Skill from './Skill';
+import { Row } from 'react-materialize';
 
 var masterSkillsList = [
   {
@@ -16,7 +17,7 @@ var masterSkillsList = [
 
 function SkillsList(){
   return (
-    <div>
+    <Row>
       <h3>Skills</h3>
       <hr/>
       <ul>
@@ -27,7 +28,7 @@ function SkillsList(){
           />
         )}
       </ul>
-    </div>
+    </Row>
   );
 }
 
