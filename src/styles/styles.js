@@ -16,16 +16,19 @@ export let panel = css`
     margin-top: 10em;
   }
 `;
+
 export let myHeader = css`
   #myHeader {
     display: none;
   }
 `;
+
 export let contactInfoStyles = css`
   .contact-icon {
     width: 53px;
   }
 `;
+
 export let skillStyles = css`
   .skillTitle {
     font-size: 18px;
