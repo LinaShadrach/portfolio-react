@@ -1,12 +1,12 @@
 import React from 'react';
 import Tag from './Tag';
-import { panel } from './../styles/styles.js';
+import { myHeader } from './../styles/styles.js';
 
 function Header(){
   return (
     <div>
-      <style jsx>{panel}</style>
-      <div className='panel center'>
+      <style jsx>{myHeader}</style>
+      <div id='myHeader' className='center'>
         <h1>Lina Shadrach</h1>
         <Tag></Tag>
       </div>
