@@ -2,7 +2,7 @@ import css from 'styled-jsx/css';
 
 export const fontStyles=css`
   * {
-    font-family: Raleway, sans-serif;
+    font-family: 'Magra', sans-serif;
   }
 `;
 
@@ -26,5 +26,11 @@ export let myHeader = css`
 export let contactInfoStyles = css`
   .contact-icon {
     width: 53px;
+  }
+`;
+export let skillStyles = css`
+  .skillTitle {
+    font-size: 18px;
+    font-weight: bold;
   }
 `;
