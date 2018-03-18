@@ -27,7 +27,6 @@ function ProjectList(){
   return (
     <Row>
       <h3 className='center'>Projects</h3>
-      <hr/>
       {masterProjectList.map((project, index) =>
         <Project
           title={project.title}
