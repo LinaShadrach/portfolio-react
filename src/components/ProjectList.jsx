@@ -2,7 +2,8 @@ import React from 'react';
 import Project from './Project';
 import { Row } from 'react-materialize';
 import { panel } from './../styles/styles.js';
-import { masterProjectList } from './../data/master-project-list.js';
+import { masterProjectList } from './../data/master-project-list.jsx';
+
 function ProjectList(){
   return (
     <div>
@@ -17,6 +18,7 @@ function ProjectList(){
               description={project.description}
               tech={project.tech}
               ghUrl={project.ghUrl}
+              imageSrc={project.imageSrc}
               key={index}
             />
           )}
