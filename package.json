@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/LinaShadrach/LinaShadrach/issues"
   },
-  "homepage": "https://github.com/LinaShadrach/LinaShadrach#readme",
+  "homepage": "https://LinaShadrach.github.io/portfolio-react",
   "dependencies": {
     "3.0.0": "^3.0.0",
     "gyp": "^0.5.0",
