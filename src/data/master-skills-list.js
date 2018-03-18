@@ -22,18 +22,18 @@ export const masterCSkillsList = [
     description: '2 years'
   },
   {
-    title: 'ASP.NET Core',
+    title: 'ASP.NET Core (1.0, 2.0)',
     description: 'MVC, Identity, Entity Framework'
   },
   {
-    title: 'VS 2015, 2017',
-    description: 'Developed on Windows & Mac'
+    title: 'VS',
+    description: 'Windows (2015, 2017) & Mac (2017)'
   }
 ];
 export const masterOtherSkillsList = [
   {
     title: 'Git',
-    description: '2 years'
+    description: 'App development & curriculum development'
   },
   {
     title: 'SQL',
