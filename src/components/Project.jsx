@@ -1,13 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Col, Card, CardTitle } from 'react-materialize';
-import { projectStyles } from './../styles/styles.js';
 
 function Project(props){
   return (
-    <Col s={12} m={4} l={4}>
-      <style jsx>{projectStyles}</style>
-      <Card className='project' 
+    <Col s={12} m={6} l={4}>
+      <Card
         header ={
           <CardTitle reveal image={props.imageSrc}/>}
         title={props.title}
@@ -30,7 +28,8 @@ Project.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   technologies: PropTypes.string,
-  ghUrl: PropTypes.string
+  ghUrl: PropTypes.string,
+  imageSrc: PropTypes.string
 };
 
 export default Project;
