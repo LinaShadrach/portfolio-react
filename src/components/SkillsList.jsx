@@ -12,6 +12,7 @@ function SkillsList(props){
           {props.masterSkillsList.map((skill, index) =>
             <Skill
               title={skill.title}
+              description={skill.description}
               key={index}
             />
           )}
