@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: [
-    resolve(__dirname, "src") + "/index.jsx"
+    './src/index'
   ],
 
   output: {
@@ -52,10 +52,11 @@ module.exports = {
       }
     }),
     new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.NamedModulesPlugin(),
     new HtmlWebpackPlugin({
       template:'template.ejs',
       appMountId: 'react-app-root',
-      title: 'Redux Karaoke',
+      title: 'Lina Shadrach',
       filename: resolve(__dirname, "build", "index.html"),
     }),
   ]
