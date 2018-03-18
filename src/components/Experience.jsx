@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, CardPanel, Card, CardTitle } from 'react-materialize';
 import { panel } from './../styles/styles.js';
+import staffImg from './../data/img/staff-picture.jpg';
 function Experience(){
   return (
     <div>
@@ -28,8 +29,8 @@ function Experience(){
             </Col>
             <Col s={12} m={5} l={5}>
               <Card header={
-                <CardTitle image= {'https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/12923178_10206186647568769_454637490761351205_n.jpg?oh=3cca0a314d15c16a6e6bc9affe6809e6&oe=5B2DB964'}>
-                  Gradation Day
+                <CardTitle image= {staffImg}>
+                  Staff Lunch
                 </CardTitle>}>
                 <p>
                   If your interested in learning how to code, check out <a href='epicodus.com'>Epicodus's</a> site.
