@@ -1,6 +1,8 @@
 import React from 'react';
 import Project from './Project';
 import { Row } from 'react-materialize';
+import { CardPanel } from 'react-materialize';
+import { panel } from './../styles/styles.js';
 
 var masterProjectList = [
   {
@@ -26,16 +28,23 @@ var masterProjectList = [
 function ProjectList(){
   return (
     <Row>
-      <h3 className='center'>Projects</h3>
-      {masterProjectList.map((project, index) =>
-        <Project
-          title={project.title}
-          description={project.description}
-          tech={project.tech}
-          ghUrl={project.ghUrl}
-          key={index}
-        />
-      )}
+      <style jsx>{panel}</style>
+      <div className='panel'>
+        <CardPanel  className="deep-purple lighten-4">
+          <Row>
+          <h3 className='center'>Projects</h3>
+          {masterProjectList.map((project, index) =>
+            <Project
+              title={project.title}
+              description={project.description}
+              tech={project.tech}
+              ghUrl={project.ghUrl}
+              key={index}
+            />
+          )}
+        </Row>
+        </CardPanel>
+      </div>
     </Row>
   );
 }
