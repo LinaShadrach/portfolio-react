@@ -4,7 +4,7 @@ function ContactInfo(){
   return (
     <Row className="center">
       <div>
-        <div>
+        <div id="contactspy">
           <a  href="github.com/LinaShadrach">Github</a>
           <a  href="https://www.linkedin.com/in/lina-shadrach/" >LinkedIn</a>
         </div>
