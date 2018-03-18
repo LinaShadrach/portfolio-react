@@ -1,21 +1,21 @@
 import React from 'react';
 import Header from './Header';
-import ProjectList from './ProjectList';
-import Tag from './Tag';
-import Experience from './Experience';
-import SkillsList from './SkillsList';
-import ContactInfo from './ContactInfo';
+import MyContent from './MyContent';
+import { Parallax } from 'react-materialize';
+import { Row } from 'react-materialize';
+import { fontStyles } from './../styles/styles.js';
+import './../styles/materialize-script.js';
+import meVista from './../data/img/me-vista.jpg';
 
 function App(){
   return (
-    <div>
-      <Header/>
-      <Tag/>
-      <ProjectList></ProjectList>
-      <Experience></Experience>
-      <SkillsList></SkillsList>
-      <ContactInfo></ContactInfo>
-    </div>
+    <Row>
+      <style jsx global>{fontStyles}</style>
+      <Header></Header>
+      <Parallax imageSrc={meVista}>
+      </Parallax>
+      <MyContent></MyContent>
+    </Row>
   );
 }
 

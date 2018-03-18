@@ -30,6 +30,7 @@
             "error",
             2
         ],
+        "no-console": "warn",
         "indent": [
             "warn",
             2

@@ -1,5 +1,6 @@
 import React from 'react';
 import Tag from './Tag';
+
 class ShortDescription extends React.Component{
   constructor(props) {
     super(props);
@@ -17,7 +18,7 @@ class ShortDescription extends React.Component{
     if(this.state.tagVisibleOnPage){
       tagAreaContent = <Tag/>;
     } else {
-      tagAreaContent = <h4 onMouseEnter={this.showTag}>Instructor of C#/.NET at Epicodus in Portland, Or.</h4>;
+      tagAreaContent = <p onMouseEnter={this.showTag}>Instructor at Epicodus in Portland, Or.</p>;
     }
     return (
       <div>
