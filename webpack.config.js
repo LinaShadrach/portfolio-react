@@ -28,6 +28,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader'
+          }
+        ]
+      },
+      {
         test: /\.jsx?$/,
         enforce: "pre",
         loader: "eslint-loader",
