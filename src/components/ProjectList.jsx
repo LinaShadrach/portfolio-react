@@ -16,7 +16,7 @@ function ProjectList(){
               className='projects'
               title={project.title}
               description={project.description}
-              tech={project.tech}
+              technologies={project.technologies}
               ghUrl={project.ghUrl}
               imageSrc={project.imageSrc}
               key={index}

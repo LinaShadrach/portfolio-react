@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Col, Card, CardTitle } from 'react-materialize';
+import { Col, Card, CardTitle, Icon } from 'react-materialize';
 
 function Project(props){
   return (
@@ -11,8 +11,8 @@ function Project(props){
         title={props.title}
         reveal={
           <div>
-            <h6>{props.description}</h6>
-            <p>{props.technologies}</p>
+            <p>{props.description}</p>
+            <Icon tiny>star</Icon>{props.technologies}
           </div>
         }>
         <p>
