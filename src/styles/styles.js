@@ -1,5 +1,11 @@
 import css from 'styled-jsx/css';
 
+export const fontStyles=css`
+  * {
+    font-family: Raleway, sans-serif;
+  }
+`;
+
 export let panel = css`
   .panel {
     transition: box-shadow .25s;
@@ -15,5 +21,10 @@ export let panel = css`
 export let myHeader = css`
   #myHeader {
     display: none;
+  }
+`;
+export let contactInfoStyles = css`
+  .contact-icon {
+    width: 53px;
   }
 `;
