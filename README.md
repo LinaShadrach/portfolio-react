@@ -1,12 +1,12 @@
 # Portfolio
 
-The professional portfolio for Lina Shadrach. [Click to view!](https://linashadrach.herokuapp.com/)
+The professional portfolio for Lina Shadrach. [Click to view!](https://lina-ex-machina.com/)
 
 ## Description
 
 This project is the professional portfolio for Lina Shadrach. Users can read a bit about Lina's experience as a web developer, about the projects she's built, and about the tools she likes to use. 
 
-This application was built with React. It is currently [deployed](https://linashadrach.herokuapp.com/) using Heroku. It is the authors first React app.
+This application was built with React. It is currently [deployed](https://lina-ex-machina.com/) using Netlify. It is the authors first React app.
 
 ## Setup Requirements
 
@@ -15,7 +15,7 @@ This application was built with React. It is currently [deployed](https://linash
 ### Installation
 
 * [Clone the repository](https://github.com/LinaShadrach/portfolio-react)
-* Use the CLI of your choice to navigate into the project directory and run the following commands:
+* Use the shell of your choice to navigate into the project directory and run the following commands:
   * To install packages
   ```
   $ npm install
