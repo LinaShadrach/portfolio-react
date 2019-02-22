@@ -1,6 +1,6 @@
 # Portfolio
 
-The professional portfolio for Lina Shadrach. [Click to view!](https://lina-ex-machina.com/)
+The professional portfolio for Lina Shadrach. [Click to view!](https://www.lina-ex-machina.com/)
 
 ## Description
 
@@ -14,7 +14,7 @@ This application was built with React. It is currently [deployed](https://lina-e
 
 ### Installation
 
-* [Clone the repository](https://github.com/LinaShadrach/portfolio-react)
+* [Clone the repository](https://www.github.com/LinaShadrach/portfolio-react)
 * Use the shell of your choice to navigate into the project directory and run the following commands:
   * To install packages
   ```
