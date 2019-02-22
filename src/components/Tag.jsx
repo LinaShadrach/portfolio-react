@@ -18,7 +18,7 @@ class Tag extends React.Component{
       shortDescriptionAreaContent = <ShortDescription/>;
     } else {
       shortDescriptionAreaContent =
-        <p onMouseEnter={this.showShortDescription}>Full Stack Web Developer</p>;
+        <p onMouseEnter={this.showShortDescription}>Web Developer</p>;
     }
     return (
       <div>
